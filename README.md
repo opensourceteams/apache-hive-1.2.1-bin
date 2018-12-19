@@ -1,4 +1,4 @@
-# apache-hive-1.2.1-bin安装
+# apache-hive-1.2.1-bin 安装
 
 ## 更多资源:https://github.com/opensourceteams
 
