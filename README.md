@@ -181,6 +181,10 @@ hive
 hive --service metastore & 
 ```
 
+![](https://github.com/opensourceteams/apache-hive-1.2.1-bin/blob/master/md/images/netstat.jpg)
+
+
+
 ### 停止hive metastore服务
 ```
 ps -ef|grep hive
@@ -188,7 +192,7 @@ ps -ef|grep hive
 kill -9 pid
 ```
 
-### 启动hiveserver服务
+### 启动hiveserver服务 (该服务可以不启动)
 ```
 hive --service hiveserver2 & 
 ```
@@ -233,6 +237,7 @@ CREATE TABLE IF NOT EXISTS employee (  name String, salary String) COMMENT 'Empl
 ```
 
 - 插入数据文件到hive上 
+
 ```
 LOAD DATA LOCAL INPATH '/home/liuwen/temp/employee.txt' OVERWRITE INTO TABLE employee;
 ```
