@@ -3,7 +3,7 @@
 
 ## 下载
 - 下载安装包apache-hive-1.2.1-bin.tar.gz: https://archive.apache.org/dist/hive/hive-1.2.1
-- 由于spark-2.4.0-bin-hadoop2.7 预编译好的捆绑hive版本为hive-1.2.1,为了方例所以选用版本apache-hive-1.2.1-bin
+- 由于spark-2.4.0-bin-hadoop2.7 预编译好的捆绑hive版本为hive-1.2.1,为了方便所以选用版本apache-hive-1.2.1-bin
 - 如果spark支持其它版本的hive,需要重新手动编译spark源码也可以实现
 
 
