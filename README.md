@@ -1,5 +1,13 @@
 # apache-hive-1.2.1-bin安装
 
+## 更多资源:https://github.com/opensourceteams
+
+## 技能标签
+- 下载apache hive 安装包
+- 进行apache-hive-1.2.1-bin.tar.gz安装
+- 配置mysql存储元数据
+- 配置HDFS存储 /user/hive/warehouse
+- 该Hive版本1.2.1默认集成在(Spark1.6 到 Spark2.4)
 
 ## 下载
 - 下载安装包apache-hive-1.2.1-bin.tar.gz: https://archive.apache.org/dist/hive/hive-1.2.1
