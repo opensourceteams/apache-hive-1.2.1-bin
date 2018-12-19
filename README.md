@@ -45,6 +45,7 @@ cp mysql-connector-java-8.0.13.jar  $HIVE_HOME/lib/
 
 ### 新建hive-site.xml数据库相关的配置
 - touch hive-site.xml文件
+
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
@@ -167,8 +168,8 @@ schematool -initSchema -dbType mysql
 hive
 ```
 - hive启动说明
-```
-![](leanote://file/getImage?fileId=5c1a41f10559c607ba000000)
+
+![](https://github.com/opensourceteams/apache-hive-1.2.1-bin/blob/master/md/images/hive.png)
 
 
 
